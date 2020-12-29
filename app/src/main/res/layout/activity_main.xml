@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=    "يوم في طاعة الله بعونه
+                              نرجو أن نكون وسيلة لها"
+        android:id="@+id/tex"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="25dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/tex"
+        android:background="@drawable/azkar"
+        android:id="@+id/azkar"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/azkar"
+        android:background="@drawable/ad3ya"
+        android:id="@+id/ad3ya"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+</RelativeLayout>
